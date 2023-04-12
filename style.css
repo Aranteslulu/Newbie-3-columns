@@ -1,0 +1,129 @@
+ @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+ :root {
+
+     /* Primary */
+     --clr-bright-orange: hsl(31, 77%, 52%);
+     --clr-dark-cyan: hsl(184, 100%, 22%);
+     --clr-very-dark-cyan: hsl(179, 100%, 13%);
+
+     /* Neutral */
+     --clr-transparent-white: hsla(0, 0%, 100%, 0.75);
+     /* paragraphs*/
+     --clr-very-light-gray: hsl(0, 0%, 95%);
+     /* background, headings, buttons */
+ }
+
+
+
+
+ * {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+ }
+
+ body {
+     background-color: var(--clr-very-light-gray);
+     min-height: 100vh;
+ }
+
+ main {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     flex-direction: column;
+ }
+
+ .grid {
+     display: grid;
+     grid-template-columns: 33% 33% 33%;
+ }
+
+
+
+
+ .all {
+     width: 17.2rem;
+     height: 29rem;
+     padding: 3em 2em;
+ }
+
+ .sedans {
+     background-color: var(--clr-bright-orange);
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+ }
+
+ .suvs {
+     background-color: var(--clr-dark-cyan);
+ }
+
+ .luxury {
+     background-color: var(--clr-very-dark-cyan);
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+ }
+
+
+
+
+ button {
+     background-color: transparent;
+     color: var(--clr-very-light-gray);
+     border: 2px solid;
+     border-radius: 30px;
+     width: 130px;
+     height: 45px;
+     font-family: 'Lexend Deca', sans-serif;
+     font-weight: 400;
+ }
+
+ button:hover {
+     cursor: pointer;
+ }
+
+
+
+
+ .text {
+     padding: 2em 0 4.5em 0;
+ }
+
+ p {
+     font-size: 15px;
+     font-family: 'Lexend Deca', sans-serif;
+     font-weight: 400;
+     line-height: 1.5em;
+     padding-top: 2em;
+     color: var(--clr-transparent-white);
+ }
+
+ h1 {
+     font-size: 2.3em;
+     font-family: 'Big Shoulders Display', cursive;
+     font-weight: 700;
+     text-transform: uppercase;
+     color: var(--clr-very-light-gray);
+ }
+
+
+
+
+ .attribution {
+    font-size: 0.9em;
+     color: rgba(0, 0, 0, 0.644);
+     font-family: 'Lexend Deca', sans-serif;
+     position: absolute;
+     bottom: 20px;
+ }
+
+ a {
+     color: rgb(0, 17, 31);
+     font-family: 'Lexend Deca', sans-serif;
+ }
+

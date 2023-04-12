@@ -1,0 +1,52 @@
+
+
+
+@media (max-width:860px) {
+    .grid {
+        margin: 5vh;
+        grid-template-columns: none;
+        grid-template-rows: 33% 33% 33%;
+    }
+
+    .all {
+        width: 80vw;
+        height: 54vh;
+        padding: 3em 3em;
+    }
+    
+    .sedans {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+    }
+   
+    .luxury {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .text {
+        padding: 1em 0 2em 0;
+    }
+
+    p {
+        padding-top: 0.5rem;
+    }
+
+    .attribution {
+         position: relative;
+         bottom: 10px;
+        }
+}
+
+@media (min-width:390px) and (max-width: 500px) {
+    .all {
+        height: 55vh;
+    }
+}
+
+@media (max-width:389px) {
+    .all {
+        height: 60vh;
+    }
+}

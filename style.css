@@ -73,18 +73,32 @@
 
 
  button {
-     background-color: transparent;
-     color: var(--clr-very-light-gray);
+     background-color: var(--clr-very-light-gray);
      border: 2px solid;
      border-radius: 30px;
      width: 130px;
      height: 45px;
      font-family: 'Lexend Deca', sans-serif;
      font-weight: 400;
+     transition: all 0.2s ease;
+ }
+
+ .btn-sedans {
+     color: var(--clr-bright-orange);
+ }
+
+ .btn-suvs {
+     color: var(--clr-dark-cyan);
+ }
+
+ .btn-luxury {
+     color: var(--clr-very-dark-cyan);
  }
 
  button:hover {
      cursor: pointer;
+     background-color: transparent;
+     color: var(--clr-very-light-gray);
  }
 
 
@@ -115,7 +129,7 @@
 
 
  .attribution {
-    font-size: 0.9em;
+     font-size: 0.9em;
      color: rgba(0, 0, 0, 0.644);
      font-family: 'Lexend Deca', sans-serif;
      position: absolute;
@@ -126,4 +140,3 @@
      color: rgb(0, 17, 31);
      font-family: 'Lexend Deca', sans-serif;
  }
-
